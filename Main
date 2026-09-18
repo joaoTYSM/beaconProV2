@@ -9,7 +9,7 @@ end
 if game.PlaceId ~= EXPECTED_PLACE_ID then return end
 local coreGuisBefore = {}
 for _, v in pairs(game.CoreGui:GetChildren()) do coreGuisBefore[v] = true end
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/higuysdorobloxjoaopk-maker/BestScriptsLuay/refs/heads/main/windowsLyVersionUi/Lib/Libray(Lua.co).lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/joaoTYSM/lua.co-Libray/refs/heads/main/Libray(Lua.co).lua"))()
 local libraryGui = nil
 for _, v in pairs(game.CoreGui:GetChildren()) do
     if not coreGuisBefore[v] then libraryGui = v break end
