@@ -90,12 +90,12 @@ local function executeLogic(choice)
 
     if choice == "yep" then
         task.spawn(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/luayrbx-afk/beaconProV2/refs/heads/main/Main"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/joaoTYSM/beaconProV2/refs/heads/main/Main"))()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/luayrbx-afk/beaconProV2/refs/heads/main/Assets/Count"))()
         end)
     else
         task.spawn(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/luayrbx-afk/beaconProV2/refs/heads/main/Main"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/joaoTYSM/beaconProV2/refs/heads/main/Main"))()
         end)
     end
 end
